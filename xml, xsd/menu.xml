@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns="www.epam.tc.task.xml.by">
+
+    <dish ID="1">
+        <dishType>COLD_SNACKS</dishType>
+        <photo>1.png</photo>
+        <name>Ассорти рыбное</name>
+		<descriptionOptions>
+        <description>Слабосолёная форель,сёмга</description>
+		</descriptionOptions>
+        <portionSizeSelection>
+				<portionSize>100</portionSize>
+				<portionSize>20</portionSize>
+				<portionSize>15</portionSize>>
+		</portionSizeSelection>
+		<priceSelection>
+         <price></price>
+		</priceSelection>
+    </dish>
+
+    <dish ID="2">
+        <dishType>COLD_SNACKS</dishType>
+        <photo>2.png</photo>
+        <name>Тарталетки с красной икрой</name>
+		<descriptionOptions>
+        <description>Тарталетки с красной икрой</description>
+		</descriptionOptions>
+        <portionSizeSelection>
+				<portionSize>60</portionSize>
+				<portionSize>50</portionSize>
+		</portionSizeSelection>
+		<priceSelection>
+        <price></price>
+		</priceSelection>
+    </dish>
+
+    <dish ID="3">
+        <dishType>COLD_SNACKS</dishType>
+        <photo>3.png</photo>
+        <name>Закуска по-русски</name>
+		<descriptionOptions>
+        <description>Кусочки атлантической сельди с отварным картофелем, луком и зеленью</description>
+		</descriptionOptions>
+        <portionSizeSelection>
+				<portionSize>70</portionSize>
+				<portionSize>50</portionSize>
+				<portionSize>2</portionSize>
+				<portionSize>10</portionSize>
+		</portionSizeSelection>
+		<priceSelection>
+        <price></price>
+		</priceSelection>
+    </dish>
+
+    <dish ID="4">
+        <dishType>COLD_SNACKS</dishType>
+        <photo>4.png</photo>
+        <name>Куриный рулет</name>
+		<descriptionOptions>
+        <description>Куриный рулет собственного производства</description>
+		</descriptionOptions>
+        <portionSizeSelection>
+				<portionSize>100</portionSize>
+				<portionSize>5</portionSize>
+		</portionSizeSelection>
+		<priceSelection>
+        <price></price>
+		</priceSelection>
+    </dish>
+
+    <dish ID="5">
+        <dishType>COLD_SNACKS</dishType>
+        <photo>5.png</photo>
+        <name>Бастурма</name>
+		<descriptionOptions>
+        <description>Вяленая вырезка из говяжьего мяса</description>
+        </descriptionOptions>
+		 <portionSizeSelection>
+				<portionSize>50</portionSize>
+				<portionSize>5</portionSize>
+		</portionSizeSelection>
+		<priceSelection>
+        <price></price>
+		</priceSelection>
+    </dish>
+
+    <dish ID="6">
+        <dishType>COLD_SNACKS</dishType>
+        <photo>6.png</photo>
+        <name>Ассорти мясное</name>
+		<descriptionOptions>
+        <description>Нарезка из буженины, бастурмы, куриного рулета собственного производства и колбасы</description>
+		</descriptionOptions>
+		<portionSizeSelection>
+               <portionSize>100</portionSize>
+		       </portionSizeSelection>
+		<priceSelection>	   
+        <price></price>
+		</priceSelection>
+    </dish>
+
+    <dish ID="7">
+        <dishType>COLD_SNACKS</dishType>
+        <photo>7.png</photo>
+        <name>Язык отварной</name>
+		<descriptionOptions>
+        <description>Нарезка нежного говяжьего языка, подается с хреном</description>
+		</descriptionOptions>
+		<portionSizeSelection>
+              <portionSize>80</portionSize>
+		      <portionSize>20</portionSize>
+		      <portionSize>1</portionSize>
+		<priceSelection>
+        <price></price>
+		</priceSelection>
+    </dish>
+	
+	<dish ID="8">
+        <dishType>COLD_SNACKS</dishType>
+        <photo>8.png</photo>
+        <name>Ассорти баклажаны</name>
+		<descriptionOptions>
+        <description>1.Жареные баклажаны с помидорами</description>
+		<description>2.Жареные баклажаны с чесноком</description>
+		<description>2.Жареные баклажаны с орехами</description>
+		</descriptionOptions>
+		<portionSizeSelection>
+		      <portionSize>100</portionSize>
+		      <portionSize>5</portionSize>
+		      <priceSelection>
+        <price>1. </price>
+		<price>2. </price>
+		<price>3. </price>
+		</priceSelection>
+    </dish>
+	
+	<dish ID="9">
+        <dishType>HOT_SNACKS</dishType>
+        <photo>9.png</photo>
+        <name>Лобио с шампиньонами</name>
+		<descriptionOptions>
+        <description>Фасоль с шампиньонами и грецким орехом</description>
+		</descriptionOptions>
+		<portionSizeSelection>
+		      <portionSize>150</portionSize>
+		      <portionSize>5</portionSize>
+		<priceSelection>
+        <price>105</price>
+		</priceSelection>
+    </dish>
+	
+		<dish ID="10">
+        <dishType>BREAKFASTS</dishType>
+        <photo>10.png</photo>
+        <name>Глазунья</name>
+		<descriptionOptions>
+        <description>2 яйца (на выбор: ветчина, сыр, помидоры)</description>
+		</descriptionOptions>
+		<portionSizeSelection>
+		<portionSize>150</portionSize>
+		<priceSelection>
+        <price></price>
+		</priceSelection>
+    </dish>
+</menu>

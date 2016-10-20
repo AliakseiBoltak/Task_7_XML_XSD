@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 	xmlns="http://www.w3.org/2001/XMLSchema"
+		    targetNamespace="www.epam.tc.task.xml.by"
+		    xmlns:tns="www.epam.tc.task.xml.by"
+		    elementFormDefault="qualified">
+	
+	 <element name="menu">
+		<complexType>
+			<sequence>
+				<element name="dishSelection" type="tns:DishSelection" minOccurs="1" maxOccurs="12" />
+			</sequence>
+		</complexType>
+	</element>
+	
+	<complexType name="dishSelection">
+		<sequence>
+			<element name="dish" type="tns:dish" minOccurs="0" maxOccurs="unbounded" />
+		</sequence>
+		<attribute name="dishType" use="required">
+			<simpleType>
+				<restriction base="string">
+					<enumeration value="COLD_SNACKS"></enumeration>
+					<enumeration value="HOT_SNACKS"></enumeration>
+					<enumeration value="BREAKFASTS"></enumeration>
+					<enumeration value="SALADS"></enumeration>
+					<enumeration value="SOUPS"></enumeration>
+					<enumeration value="FISH_MEALS"></enumeration>
+					<enumeration value="MEAT_MEALS"></enumeration>
+					<enumeration value="GARNIERS"></enumeration>
+					<enumeration value="BARBECUES"></enumeration>
+					<enumeration value="MEALS_FROM_CHIEF"></enumeration>
+					<enumeration value="ATTACHMENTS"></enumeration>
+					<enumeration value="DESSERTS"></enumeration>
+				</restriction>
+			</simpleType>
+		</attribute>
+	</complexType>
+
+	<complexType name="dishDescription">
+        <sequence>
+            <element name="dishType" type="tNum:dishType"/>
+            <element name="photo" type="string"/>
+            <element name="name" type="string"/>
+            <element name="descriptionOptions" type="string"/>
+            <element name="portionSizeSelection" type="tNum:portionSizeSelectionType"/>
+            <element name="priceSelection" type="positiveInteger"/>
+        </sequence>
+        <attribute name="ID" type="ID" use="required"/>
+    </complexType>
+
+	
+    <complexType name="specification">
+		<sequence>
+			<element name="descriptionSelection" type="tns:descriptionSelection"/>
+			<element name="portionSelection" type="tns:portionSelection"/>
+			<element name="priceSelection" type="tns:priceSelection"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="descriptionOptions">
+		<sequence>
+			<element name="description" type="string"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="portionSizeSelection">
+		<sequence>
+			<element name="portionSize" type="int"/>
+		</sequence>
+	</complexType>
+	
+	<complexType name="priceSelection">
+		<sequence>
+			<element name="price" type="int"/>
+		</sequence>
+	</complexType>
+	
+</schema>
